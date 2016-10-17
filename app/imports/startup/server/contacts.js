@@ -31,11 +31,11 @@ const contactSeeds = [
     email: 'sviloria@hawaii.edu',
   },
   {
-    first: 'John',
-    last: 'Viloria',
-    address: '45-419 Makalani St',
-    telephone: '808-247-5385',
-    email: 'jviloria@hawaii.edu',
+    first: 'Severa',
+    last: 'Fates',
+    address: 'Kryia Avenue',
+    telephone: '808-232-5355',
+    email: 'sfates@hawaii.edu',
   },
 ];
 
