@@ -1,5 +1,5 @@
-import { Mongo } from 'meteor/mongo';
-import { SimpleSchema } from 'meteor/aldeed:simple-schema';
+import {Mongo} from 'meteor/mongo';
+import {SimpleSchema} from 'meteor/aldeed:simple-schema';
 
 /* eslint-disable object-shorthand */
 
@@ -9,6 +9,7 @@ export const Contacts = new Mongo.Collection('Contacts');
  * Create the schema for Stuff
  */
 export const ContactsSchema = new SimpleSchema({
+
   first: {
     label: 'first',
     type: String,
@@ -25,7 +26,7 @@ export const ContactsSchema = new SimpleSchema({
     label: 'address',
     type: String,
     optional: false,
-    max: 20,
+    max: 30,
   },
   telephone: {
     label: 'telephone',
@@ -39,7 +40,6 @@ export const ContactsSchema = new SimpleSchema({
     optional: false,
     max: 20,
   },
-
 });
 
 Contacts.attachSchema(ContactsSchema);

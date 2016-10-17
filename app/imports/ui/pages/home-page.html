@@ -14,14 +14,13 @@
       </thead>
 
       <tbody>
-      {{#each stuff in stuffList}}
+      {{#each contact in contactsList}}
       <tr>
         <td>{{contact.first}}</td>
         <td>{{contact.last}}</td>
         <td>{{contact.address}}</td>
         <td>{{contact.telephone}}</td>
         <td>{{contact.email}}</td>
-        <td><a href="{{pathFor 'Edit_Stuff_Page' _id=stuff._id}}">Edit</a></td>
       </tr>
       {{/each}}
       </tbody>
@@ -30,40 +29,5 @@
     {{> Loading}}
     {{/if}}
 
-
-    <table style="margin-top: 20px" class="ui celled table">
-      <thead>
-      <tr>
-        <th>First</th>
-        <th>Last</th>
-        <th>Address</th>
-        <th>Phone</th>
-        <th>Email</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>Gabriel</td>
-        <td>Viloria</td>
-        <td>3161 Ala Ilima St</td>
-        <td>808-218-9262</td>
-        <td>gviloria@hawaii.edu</td>
-      </tr>
-      <tr>
-        <td>Angelo</td>
-        <td>Viloria</td>
-        <td>808-868 Ala Ilima Place</td>
-        <td>808-976-7754</td>
-        <td>angelov@hawaii.edu</td>
-      </tr>
-      <tr>
-        <td>Sally</td>
-        <td>Viloria</td>
-        <td>45-419 Makalani St</td>
-        <td>808-247-5385</td>
-        <td>sviloria@hawaii.edu</td>
-      </tr>
-      </tbody>
-      </table>
   </div>
 </template>

@@ -1,7 +1,7 @@
 /**
  * Created by gviloria on 10/16/16.
  */
-import { Contacts } from '../../api/stuff/contacts.js';
+import { Contacts } from '../../api/contacts/contacts.js';
 import { _ } from 'meteor/underscore';
 
 /**
@@ -29,6 +29,13 @@ const contactSeeds = [
     address: '45-419 Makalani St',
     telephone: '808-247-5385',
     email: 'sviloria@hawaii.edu',
+  },
+  {
+    first: 'John',
+    last: 'Viloria',
+    address: '45-419 Makalani St',
+    telephone: '808-247-5385',
+    email: 'jviloria@hawaii.edu',
   },
 ];
 
